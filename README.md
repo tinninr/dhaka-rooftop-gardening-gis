@@ -49,3 +49,6 @@ The analysis supports urban environmental management by:
 ---
 
 ## Repository Structure
+data/ – Processed spatial datasets (Dhaka boundary, buildings, suitability layers)
+notebooks/ – Python (GeoPandas, Pandas) analysis notebook
+maps/ – Final GIS map outputs and visualizations
