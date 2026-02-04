@@ -1,7 +1,6 @@
 # Urban Ecosystem Enhancement through Rooftop Gardening:  
 ## A GIS-Based Mapping Approach for Dhaka City
 
-**Course:** Urban Environmental Management  
 **Study Area:** Dhaka City, Bangladesh  
 **Tools:** QGIS 3.44, Python (GeoPandas, Pandas), OpenStreetMap  
 
