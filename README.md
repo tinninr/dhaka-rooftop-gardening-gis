@@ -1,4 +1,4 @@
-# Urban Ecosystem Enhancement through Rooftop Gardening:  
+# Urban Ecosystem Enhancement through Rooftop Gardening:
 ## A GIS-Based Mapping Approach for Dhaka City
 
 **Study Area:** Dhaka City, Bangladesh  
