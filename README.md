@@ -54,4 +54,5 @@ maps/ – Final GIS map outputs and visualizations
 
 ## Final Map Output
 
-![Dhaka Rooftop Suitability Map](maps/dhaka_rooftop_suitability_map.png)
+![Dhaka Rooftop Suitability Map](dhaka_rooftop_suitability_map.png)
+
