@@ -51,3 +51,7 @@ The analysis supports urban environmental management by:
 data/ – Processed spatial datasets (Dhaka boundary, buildings, suitability layers)
 notebooks/ – Python (GeoPandas, Pandas) analysis notebook
 maps/ – Final GIS map outputs and visualizations
+
+## Final Map Output
+
+![Dhaka Rooftop Suitability Map](maps/dhaka_rooftop_suitability_map.png)
