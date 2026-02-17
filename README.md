@@ -26,11 +26,36 @@ Rooftop gardening offers a nature-based solution by utilizing underused rooftop 
 ---
 
 ## Key Outputs
-- Rooftop gardening suitability map for Dhaka City  
-- Estimated total potential rooftop garden area  
-- Spatial identification of priority areas for urban ecosystem enhancement  
+Total Estimated Rooftop Garden Area:
+Using GeoPandas geometry calculations, the rooftop surface area of all buildings within Dhaka City was computed.
+To reflect real-world feasibility, 30% of each rooftop area was assumed to be gardenable, accounting for:
+- Water tanks and rooftop infrastructure
+- Solar panels and utilities
+- Access pathways and safety space
+- Structural and load limitations
 
+After applying this realistic constraint:
+Estimated total rooftop garden area in Dhaka:
+31,420,375 m²
+
+This equals approximately:
+- 31.4 km² of potential new urban green space
+- Equivalent to over 4,400 football fields
+- A significant opportunity for climate adaptation and urban greening
 ---
+Suitability Classification
+Buildings were grouped into three suitability categories based on available gardenable rooftop area:
+| Suitability Level      | Description                                          |
+| ---------------------- | ---------------------------------------------------- |
+| **High suitability**   | Large rooftops with high gardening potential         |
+| **Medium suitability** | Moderate rooftop area suitable for partial gardening |
+| **Low suitability**    | Small rooftops with limited gardening potential      |
+
+Spatial Insights
+The analysis revealed:
+- High suitability buildings are concentrated in planned residential and commercial zones
+- Dense informal areas show lower rooftop gardening potential
+- Even moderate adoption could substantially increase urban green coverage
 
 ## Applications
 The analysis supports urban environmental management by:
