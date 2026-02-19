@@ -1,4 +1,4 @@
-# Urban Ecosystem Enhancement through Rooftop Gardening:
+# Urban Ecosystem Enhancement through Rooftop Gardening
 ## A GIS & Python spatial analysis project estimating rooftop gardening potential and urban ecosystem benefits in Dhaka, Bangladesh.
 
 
