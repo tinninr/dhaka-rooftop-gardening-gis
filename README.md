@@ -30,30 +30,46 @@ Rooftop gardening offers a nature-based solution by utilizing underused rooftop 
 
 Using GeoPandas geometry calculations, the rooftop surface area of all mapped buildings within Dhaka City was computed.
 
-To reflect real-world feasibility, **30% of each rooftop area was assumed to be gardenable**, accounting for:
+To reflect real-world feasibility, **30% of each rooftop area was assumed to be gardenable**.  
+This conservative assumption accounts for:
 
 - Water tanks and rooftop infrastructure  
-- Solar panels and utilities  
-- Access pathways and safety space  
-- Structural and load limitations  
+- Solar panels and utility installations  
+- Access pathways and safety clearance  
+- Structural and load-bearing limitations  
+
+### Python Calculation Summary
+
+The analysis workflow in Python included:
+
+- Converting building footprints into projected CRS for accurate area calculation  
+- Calculating rooftop area using geometry.area  
+- Estimating gardenable area using:
+
+- Aggregating results using Pandas to estimate city-wide potential
+- Classifying buildings into suitability categories based on gardenable area thresholds
+
+---
 
 ### Quantitative Results
 
-- **Total estimated rooftop area (all buildings):** 31,420,375 m²  
-- **Estimated gardenable rooftop area (30%):** 9,426,112 m²  
-- **Equivalent potential green space:** **≈ 9.43 km²**
+| Metric | Value |
+|---|---|
+| **Total rooftop area (all buildings)** | **31,420,375 m²** |
+| **Estimated gardenable rooftop area (30%)** | **9,426,112 m²** |
+| **Equivalent potential green space** | **≈ 9.43 km²** |
+
+---
 
 ### Suitability Classification Results
 
-Buildings were classified based on available rooftop garden area:
-
 | Suitability Level | Number of Buildings |
-|-------------------|--------------------|
-| Low suitability   | 821,085 |
-| Medium suitability| 127,834 |
-| High suitability  | 16,727 |
+|---|---|
+| Low suitability | 821,085 |
+| Medium suitability | 127,834 |
+| High suitability | 16,727 |
 
-These results highlight the large untapped potential for rooftop greening across Dhaka.
+These findings highlight the significant untapped potential for rooftop greening across Dhaka City.
 
 ## Applications
 The analysis supports urban environmental management by:
@@ -71,9 +87,9 @@ The analysis supports urban environmental management by:
 ---
 
 ## Repository Structure
-data/ – Processed spatial datasets (Dhaka boundary, buildings, suitability layers)
-notebooks/ – Python (GeoPandas, Pandas) analysis notebook
-maps/ – Final GIS map outputs and visualizations
+- **data/** – Processed spatial datasets (Dhaka boundary, buildings, suitability layers)  
+- **notebooks/** – Python (GeoPandas, Pandas) analysis notebook  
+- **maps/** – Final GIS map outputs and visualizations  
 
 ## Final Map Output
 
