@@ -95,3 +95,16 @@ The analysis supports urban environmental management by:
 
 ![Dhaka Rooftop Suitability Map](dhaka_rooftop_suitability_map.png)
 
+## Code Availability
+
+The full Python GeoPandas analysis is available in:
+
+- `rooftop_garden_analysis.ipynb`
+
+This notebook contains the complete workflow including:
+- Building footprint processing
+- Rooftop area calculation
+- 30% gardenable area assumption
+- Suitability classification
+- Summary statistics generation
+
